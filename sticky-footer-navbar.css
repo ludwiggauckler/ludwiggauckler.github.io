@@ -1,0 +1,196 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 40px;
+  overflow-y: scroll;
+/*  background-color: #b2c1d1;*/
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+  background-color: #4d7194; /*#f5f5f5;*/
+}
+footer a, footer a:link, footer a:visited{
+	color: #e5eaef;
+}
+footer a:hover{
+	color: #b2c1d1;
+}
+
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+/* Colors in links
+-------------------------------------------------- */
+
+ul li a, ul li a:visited {
+    color: #4d7194;
+}
+
+ul li a:hover, ul li a:active {
+    color: #1a4876;
+}
+
+ul li.active a {
+    color: #4d7194;
+}
+
+/* Colors in navbar
+-------------------------------------------------- */
+
+.navbar-default {
+  background-color: #4d7194;
+  border-color: #1a4876;
+}
+.navbar-default .navbar-brand {
+  color: #e5eaef;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #b2c1d1;
+}
+.navbar-default .navbar-text {
+  color: #e5eaef;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #e5eaef;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #b2c1d1;
+  background-color: #1a4876;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #b2c1d1;
+  background-color: #1a4876;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #b2c1d1;
+  background-color: #1a4876;
+}
+.navbar-default .navbar-toggle {
+  border-color: #1a4876;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #1a4876;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #e5eaef;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #e5eaef;
+}
+.navbar-default .navbar-link {
+  color: #e5eaef;
+}
+.navbar-default .navbar-link:hover {
+  color: #b2c1d1;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #e5eaef;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #b2c1d1;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #b2c1d1;
+    background-color: #1a4876;
+  }
+}
+
+/* itemize
+-------------------------------------------------- */
+
+.custom-bullet li {
+    margin-left: -12px;
+    margin-bottom: 0.5em;
+    display: block;
+}
+
+.custom-bullet li:before {
+    content: "\25B7";
+    font-size: 9px;
+    float: left;
+    margin-top: 4px;
+    margin-left: -17px;
+    /*display: inline-block; 
+    width: 1em;
+    margin-left: -1em;*/
+/*    content: "\e080";
+    font-family: 'Glyphicons Halflings';
+    font-size: 9px;
+    float: left;
+    margin-top: 4px;
+    margin-left: -17px;*/
+}
+
+h4 {
+    padding-top: 0.5em;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+/*  background-color: white;*/
+}
+.container .text-muted {
+  margin: 8px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
